@@ -1,26 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es5", // Define para qual versão do JavaScript o código será compilado
+    "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true, // Permite a compilação de arquivos JavaScript
-    "skipLibCheck": true, // Pula a verificação de tipos de arquivos de declaração
-    "esModuleInterop": true, // Permite interoperabilidade com módulos CommonJS
+    "allowJs": true, 
+    "skipLibCheck": true, 
+    "esModuleInterop": true, 
     "allowSyntheticDefaultImports": true,
-    "strict": true, // Habilita todas as opções de verificação de tipo estritas
+    "strict": true, 
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext", // Define o sistema de módulos
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true, // Não gera arquivos de saída (o bundler, como o Webpack ou Vite, fará isso)
-    "jsx": "react-jsx" // ESSENCIAL: Processa JSX como React
+    "noEmit": true, 
+    "jsx": "react-jsx" 
   },
   "include": [
-    "src" // Diz ao TypeScript para verificar apenas os arquivos dentro da pasta 'src'
+    "src" 
   ]
 }
